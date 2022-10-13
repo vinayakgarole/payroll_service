@@ -1,0 +1,4 @@
+create database payroll_service;
+show databases;
+use payroll_service;
+Create Table employee_payroll(id int not null auto_increment primary key,name varchar(255),salary int,start_date varchar(255));
